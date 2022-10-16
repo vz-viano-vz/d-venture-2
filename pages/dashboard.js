@@ -6,9 +6,7 @@ import Navbar from '../component/Navbar';
 const dashboard = () => {
   const currentUser = useAuth();
   console.log(currentUser);
-  if (!currentUser.isAuthenticated) {
-    router.push('/login');
-  }
+
   return (
     <div>
       <Navbar />
