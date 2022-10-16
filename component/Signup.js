@@ -19,6 +19,11 @@ const Signup = () => {
             alert("Please enter your email address and password")
             return
         }
+        else if(password.length<6){
+            alert("Password must be  more than 6 characters")
+            return
+        }
+        
         
             try {
                 await signup(email, password)
