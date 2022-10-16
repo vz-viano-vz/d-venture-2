@@ -18,7 +18,7 @@ const Login = () => {
         
         if ( !email || !password ) {
             alert("Please enter your email and password")
-            
+            return
         }
         
             try {
