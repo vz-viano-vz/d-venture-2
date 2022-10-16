@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../styles/Home.module.css';
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link btn btn-primary btn-sm px-2" href="/signup">
+              <a class="nav-link btn btn-dark btn-sm px-2" href="/signup">
                 Get Started
               </a>
             </li>

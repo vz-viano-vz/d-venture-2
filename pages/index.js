@@ -11,7 +11,7 @@ export default function Home() {
           <Navbar />
           <br />
           <header class="py-5">
-            <div class="col-12 px-5 mx-auto">
+            <div class="col-8 px-5 mx-auto">
               <div class="row gx-5">
                 <div class="col-lg-12 col-xl-12 col-xxl-12">
                   <div class="my-5 text-xl-start">
@@ -21,7 +21,7 @@ export default function Home() {
                       Cupiditate, repellendus quo?
                     </p>
                     <div class="d-grid gap-3 d-sm-flex align-center">
-                      <a class="nav-link btn btn-primary btn-sm py-2 px-2 text-center text-white" href="/sign-up">
+                      <a class=" btn btn-dark btn-sm py-2 px-2 text-center text-white" href="/sign-up">
                         Get Started
                       </a>
                     </div>
