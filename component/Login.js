@@ -13,6 +13,7 @@ const Login = () => {
     const [loading, setLoading] = useState(false)
     const { login, signup, currentUser  } = useAuth()
     console.log(currentUser)
+    
     async function submitHandler(e){
         e.preventDefault()
         
@@ -29,9 +30,7 @@ const Login = () => {
                 alert('Incorrect email or password')
             }
             
-        
         setLoading(false)
-        
     }
 
     return (
