@@ -1,24 +1,19 @@
-.container {
+.bungkus {
+  background-color: #4abdac;
+}
+.containerx {
   padding: 0 2rem;
+  height: 100vh;
+}
+.bgblue {
+  background-image: url('../assets/gunung2.png');
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.body {
+  background-color: #4abdac;
+  background-image: url('../assets/gunung2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer a {
@@ -61,8 +56,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
