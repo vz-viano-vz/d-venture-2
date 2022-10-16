@@ -17,6 +17,7 @@ const Signup = () => {
         
         if (!email||!password){
             alert("Please enter your email address and password")
+            return
         }
         
             try {
