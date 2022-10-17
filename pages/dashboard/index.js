@@ -13,7 +13,7 @@ const dashboard = () => {
       <div class={styles.bgblue}>
         <div class={styles.containerx}>
           <Navdash />
-          <h1 class="text-center">Index</h1>
+          <h1 class="text-center">Eco Wisata</h1>
         </div>
       </div>
     </div>

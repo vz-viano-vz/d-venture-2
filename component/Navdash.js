@@ -22,6 +22,11 @@ const Navdash = () => {
                 </Link>
               </li>
               <li class="nav-item mx-4">
+                <Link href="/dashboard">
+                  <a class="nav-link text-white">Eco Wisata</a>
+                </Link>
+              </li>
+              <li class="nav-item mx-4">
                 <Link href="/dashboard/spotfoto">
                   <a class="nav-link text-white">Spot Foto</a>
                 </Link>
