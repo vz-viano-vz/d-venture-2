@@ -9,7 +9,6 @@ const spotfoto = () => {
       <div class={styles.bgblue}>
         <div class={styles.containerx}>
           <Navdash />
-          {/* <br /> */}
           <h1 class="text-center">Spot Foto</h1>
         </div>
       </div>

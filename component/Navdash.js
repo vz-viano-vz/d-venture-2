@@ -27,7 +27,7 @@ const Navdash = () => {
                 </Link>
               </li>
               <li class="nav-item mx-4">
-                <Link href="/todo">
+                <Link href="/dashboard/todo">
                   <a class="nav-link text-white">To-do List</a>
                 </Link>
               </li>

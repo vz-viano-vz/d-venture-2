@@ -8,7 +8,6 @@ const about = () => {
       <div class={styles.bgblue}>
         <div class={styles.containerx}>
           <Navbar />
-          <br />
           <h1>About</h1>
         </div>
       </div>

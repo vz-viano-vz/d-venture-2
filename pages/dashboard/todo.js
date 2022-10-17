@@ -8,7 +8,6 @@ const todo = () => {
       <div class={styles.bgblue}>
         <div class={styles.containerx}>
           <Navdash />
-          {/* <br /> */}
           <h1 class="text-center">to-do List</h1>
         </div>
       </div>

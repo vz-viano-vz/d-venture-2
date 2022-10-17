@@ -9,7 +9,6 @@ const ecoscan = () => {
         <div class={styles.bgblue}>
           <div class={styles.containerx}>
             <Navdash />
-            {/* <br /> */}
             <h1 class="text-center">Eco Scan</h1>
           </div>
         </div>

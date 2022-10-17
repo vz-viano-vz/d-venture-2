@@ -2,7 +2,6 @@ import { router } from 'next/router';
 import React from 'react';
 import { useAuth } from '../../context/AuthContext';
 import styles from '../../styles/Home.module.css';
-import Link from 'next/link';
 import Navdash from '../../component/Navdash';
 
 const dashboard = () => {
@@ -13,8 +12,7 @@ const dashboard = () => {
     <div>
       <div class={styles.bgblue}>
         <div class={styles.containerx}>
-          <Navbar />
-          <br />
+          <Navdash />
           <h1 class="text-center">Index</h1>
         </div>
       </div>
