@@ -2,7 +2,6 @@ import { router } from 'next/router';
 import React from 'react';
 import { useAuth } from '../../context/AuthContext';
 import styles from '../../styles/Home.module.css';
-import Link from 'next/link';
 import Navdash from '../../component/Navdash';
 
 const dashboard = () => {
