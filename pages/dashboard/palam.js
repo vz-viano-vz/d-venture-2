@@ -1,38 +1,15 @@
 import React from 'react';
+import styles from '../../styles/Home.module.css';
+import Navdash from '../../component/Navdash';
 
 const palam = () => {
   return (
     <div>
       <div class={styles.bgblue}>
         <div class={styles.containerx}>
-          <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                  <li class="nav-item">
-                    <Link href="#">
-                      <a class="nav-link text-white">Palam</a>
-                    </Link>
-                  </li>
-                  <li class="nav-item">
-                    <Link href="#">
-                      <a class="nav-link text-white">Eco Scan</a>
-                    </Link>
-                  </li>
-                  <li class="nav-item">
-                    <Link href="/dashboard/spotfoto">
-                      <a class="nav-link text-white">Spot Foto</a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <br />
-          <h1>PALAM</h1>
+          <Navdash />
+          {/* <br /> */}
+          <h1 class="text-center">Panduan Menjaga Alam (PALAM)</h1>
         </div>
       </div>
     </div>
