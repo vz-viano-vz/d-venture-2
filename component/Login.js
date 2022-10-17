@@ -20,16 +20,16 @@ const Login = () => {
             alert("Please enter your email and password")
             return
         }
-            setError('')
+    
             try {
-                
+                setLoading(false)
                 await login(email, password)
                 
                 router.push('/dashboard')
             } catch (err) {
                 alert('Incorrect email or password')
             }
-            
+            setLoading(true)
         
     }
 

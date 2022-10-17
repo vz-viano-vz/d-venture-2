@@ -23,7 +23,7 @@ export function AuthProvider({ children }) {
     }
 
     function logout() {
-        setCurrentUser(null)
+        
         return signOut(auth)
     }
 
