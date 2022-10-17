@@ -11,7 +11,9 @@ const Login = () => {
     const [password, setPassword] = useState('')
     const { isLoggingIn, setIsLoggingIn } = useState(true)
     const [loading, setLoading] = useState(false)
-    const { login, signup, currentUser  } = useAuth()
+    const { login, signup, currentUser, logout } = useAuth()
+    const [error, setError] = useState('');
+    
     console.log(currentUser)
     
     async function submitHandler(e){
@@ -21,16 +23,17 @@ const Login = () => {
             alert("Please enter your email and password")
             return
         }
-        
+            setError('')
             try {
-                setLoading(true)
+                
                 await login(email, password)
+                
                 router.push('/dashboard')
             } catch (err) {
                 alert('Incorrect email or password')
             }
             
-        setLoading(false)
+        
     }
 
     return (

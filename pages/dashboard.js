@@ -6,6 +6,10 @@ import Navbar from '../component/Navbar';
 const dashboard = () => {
   const currentUser = useAuth();
   console.log(currentUser);
+
+  if(currentUser.value==null) {
+    router.push('/login');
+  }
   
 
   return (
