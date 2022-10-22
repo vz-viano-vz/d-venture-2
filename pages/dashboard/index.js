@@ -15,6 +15,7 @@ const dashboard = () => {
         <div class={styles.container}>
           <Navdash />
           <h1 class="text-center">Eco Wisata</h1>
+          
         </div>
       </div>
     </div>
