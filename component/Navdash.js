@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 const Navdash = () => {
   return (
-    <div>
+    <div class={styles.bgblue}>
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +23,7 @@ const Navdash = () => {
                 </Link>
               </li>
               <li class="nav-item mx-4">
-                <Link href="/dashboard">
+                <Link href="/ekowisata">
                   <a class="nav-link text-white">Eco Wisata</a>
                 </Link>
               </li>

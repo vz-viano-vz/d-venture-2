@@ -11,7 +11,7 @@ export default function Ekowisata() {
     </nav> */}
       <div className="container-fluid">
         <div className="row">
-          <div className="col col-lg-3">
+          <div className="col col-lg-3" style={{overflow:'auto', height: '85vh'}}>
             <div class="card my-2" style={{ width: '18rem' }}>
               <div class="card-body">
                 <h5 class="card-title">Wana Tirta Mangrove Forest</h5>
@@ -67,7 +67,7 @@ export default function Ekowisata() {
               </div>
             </div>
           </div>
-          <div className="col col-lg-9">
+          <div className="col col-lg-9" style={{height:'100vh'}}>
             <Map />
           </div>
         </div>

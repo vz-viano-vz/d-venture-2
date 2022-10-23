@@ -25,7 +25,7 @@ const Login = () => {
                 setLoading(false)
                 await login(email, password)
                 
-                router.push('/dashboard')
+                router.push('/ekowisata')
             } catch (err) {
                 alert('Incorrect email or password')
             }
