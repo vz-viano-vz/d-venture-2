@@ -28,10 +28,10 @@ const todo = () => {
   };
   return (
     <div>
-      <div class={styles.bgblue}>
+      <div >
         <div class={styles.containerx}>
           <Navdash />
-          <h1 class="text-center">to-do List</h1>
+          <h1 class="text-center">To do List</h1>
           <div class="row">
             <form class="form">
               <input onChange={handleChange} type="text" value={userInput} class="col-5 form-control " placeholder="to-do List" />

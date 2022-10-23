@@ -17,8 +17,7 @@ export default function Home() {
                   <div class="my-5 text-xl-start">
                     <h1 class="display-5 fw-bolder text-white mb-2 text-center">D'venture</h1>
                     <p class="lead fw-normal text-white mb-4 text-center">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum, consectetur eos cumque inventore voluptate esse architecto optio reprehenderit dicta ad repudiandae eaque quia magni doloribus culpa?
-                      Cupiditate, repellendus quo?
+                     Satu-satunya Aplikasi Pariwisata alam yang mengutamakan kelestarian alam, Mempertahankan Keindahannya, dan menjaga ekosistemnya untuk keberlanjutan pariwisata alam !
                     </p>
                     <div class="d-grid gap-3 d-sm-flex align-center">
                       <a class=" btn btn-dark btn-sm py-2 px-2 text-center text-white" href="/sign-up">

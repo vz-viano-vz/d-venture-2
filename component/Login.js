@@ -42,7 +42,7 @@ const Login = () => {
               <div class="card" style={{ borderRadius: '1rem', boxShadow: '10px 10px 20px rgb(35,34,34)', backgroundColor: 'white' }}>
                 <div class="row g-0">
                   <div class="col-md-6 col-lg-5 d-none d-md-block">
-                    <img style={{ borderRadius: '1rem 0 0 1rem' }} src="lucas-favre-7EtzgOxT9B4-unsplash.jpg" alt="login form" class="img-fluid" />
+                    <img style={{ borderRadius: '1rem 0 0 1rem' }} src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-135.jpg?w=2000" alt="login form" class="img-fluid" />
                   </div>
                   <div class="col-md-6 col-lg-7 d-flex align-items-center">
                     <div class="card-body p-4 p-lg-5 text-black">
