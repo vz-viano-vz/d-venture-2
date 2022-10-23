@@ -52,8 +52,8 @@ const Todo = () => {
                   ? todoList.map((todo, index) => {
                       return (
                         <tr>
-                          <th scope="row">{index + 1}</th>
-                          <td key={index}>{todo}</td>
+                          <th scope="row" key={index}>{index + 1}</th>
+                          <td >{todo}</td>
                           <td>
                             <button class="btn btn-danger" onClick={() => handleDelete(index)}>
                               delete
