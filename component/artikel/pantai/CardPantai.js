@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const CardPantai = () => {
     return ( 
-        <div class="col-md-6 col-lg-4 mb-5 mt-3">
+        <div class="col-md-6 col-lg-3 mb-5 mt-3">
         <div class="card" style={{width: "18rem"}}>
           <img src="https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg" class="card-img-top" alt="."/>
           <div class="card-body">
