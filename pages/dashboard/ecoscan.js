@@ -27,7 +27,7 @@ function Scan() {
         </div>
         <div className="col-6 mt-5" >
         <textarea value={data} style={{height:'75%'}}className="col-12 mt-5" ></textarea>
-        <button style={{width:'100%'}} type="button" onClick={() => openInNewTab(data.toString())} class="btn btn-success">let's Go</button>
+        <button style={{width:'100%'}} type="button" onClick={() => openInNewTab(data.toString())} class="btn btn-success">lets Go</button>
         </div>
         
       </div>
