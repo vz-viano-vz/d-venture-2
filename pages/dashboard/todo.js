@@ -17,9 +17,14 @@ const todo = () => {
     setTodoList([userInput, ...todoList]);
     setUserInput('');
   };
-  const handleDelete = (todo) => {
-    const updateArr = todoList.filter((todoItem) => todoList.indexOf(todoItem) != todoList.indexOf(todo));
-    setTodoList(updateArr);
+  // const handleDelete = (todo) => {
+  //   const updateArr = todoList.filter((todoItem) => todoList.indexOf(todoItem) != todoList.indexOf(todo));
+  //   setTodoList(updateArr);
+  // };
+  const handleDelete = (index) => {
+    var newList = todoList;
+    newList.splice(index, 1);
+    setTodoList([...newList]);
   };
   return (
     <div>
@@ -50,13 +55,7 @@ const todo = () => {
                           <th scope="row">{index + 1}</th>
                           <td key={index}>{todo}</td>
                           <td>
-                            <button
-                              class="btn btn-danger"
-                              onClick={(e) => {
-                                e.preventDefault();
-                                handleDelete();
-                              }}
-                            >
+                            <button class="btn btn-danger" onClick={() => handleDelete(index)}>
                               delete
                             </button>
                           </td>
