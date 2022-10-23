@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const CardHutan = () => {
     return ( 
-        <div class="col-md-6 col-lg-4 mb-5 mt-3">
+        <div class="col-md-6 col-lg-3 mb-5 mt-3">
         <div class="card" style={{width: "18rem"}}>
           <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/10190/GettyImages-499689946.jpg" class="card-img-top" alt="."/>
           <div class="card-body">

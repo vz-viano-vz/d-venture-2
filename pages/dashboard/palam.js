@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import CardHutan from '../../component/artikel/hutan/CardHutan';
 import CardKarang from '../../component/artikel/terumbu-karang/CardKarang';
 import CardPantai from '../../component/artikel/pantai/CardPantai';
+import CardEko from '../../component/artikel/eko/CardEko';
+
 const palam = () => {
   return (
     <div>
@@ -36,7 +38,7 @@ const palam = () => {
                     <CardHutan/>
                     <CardKarang/>
                     <CardPantai/>
-                    
+                    <CardEko/>
                     
                 </div>
             </div>
