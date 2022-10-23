@@ -1,6 +1,6 @@
 import Login from "../component/Login";
 import { useAuth } from "../context/AuthContext";
-const login = () => {
+const Login = () => {
     const currentUser = useAuth()
     
     return (  
@@ -8,4 +8,4 @@ const login = () => {
     );
 }
  
-export default login;
+export default Login;

@@ -15,7 +15,7 @@ export default function Home() {
               <div class="row gx-5">
                 <div class="col-lg-12 col-xl-12 col-xxl-12">
                   <div class="my-5 text-xl-start">
-                    <h1 class="display-5 fw-bolder text-white mb-2 text-center">D'venture</h1>
+                    <h1 class="display-5 fw-bolder text-white mb-2 text-center">D-venture</h1>
                     <p class="lead fw-normal text-white mb-4 text-center">
                      Satu-satunya Aplikasi Pariwisata alam yang mengutamakan kelestarian alam, Mempertahankan Keindahannya, dan menjaga ekosistemnya untuk keberlanjutan pariwisata alam !
                     </p>

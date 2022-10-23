@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styles from '../../styles/Home.module.css';
 import Navdash from '../../component/Navdash';
 
-const todo = () => {
+const Todo = () => {
   const [userInput, setUserInput] = useState('');
   const [todoList, setTodoList] = useState([]);
   const handleChange = (e) => {
@@ -72,4 +72,4 @@ const todo = () => {
   );
 };
 
-export default todo;
+export default Todo;
