@@ -7,7 +7,7 @@ const Ekowisata = dynamic(() => import('../component/Ekowisata'), { ssr: false }
 export default function ekowisata() {
   return (
     <div>
-      <div class={styles.bgblue}>
+      <div >
         <Navdash />
         <div class="rounded">
           <Ekowisata />
