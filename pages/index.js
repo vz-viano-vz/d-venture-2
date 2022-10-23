@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css';
 import Navbar from '../component/Navbar';
+import { Link } from 'react-router-dom';
 
 // import home from '../styles/home.css'
 
@@ -20,9 +21,11 @@ export default function Home() {
                      Satu-satunya Aplikasi Pariwisata alam yang mengutamakan kelestarian alam, Mempertahankan Keindahannya, dan menjaga ekosistemnya untuk keberlanjutan pariwisata alam !
                     </p>
                     <div class="d-grid gap-3 d-sm-flex align-center">
-                      <a class=" btn btn-dark btn-sm py-2 px-2 text-center text-white" href="/sign-up">
+                    <Link href="/sign-up">
+                      <a class=" btn btn-dark btn-sm py-2 px-2 text-center text-white" >
                         Get Started
                       </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
