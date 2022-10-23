@@ -1,10 +1,10 @@
-import Login from "../component/Login";
+import Loogin from "../component/Login";
 import { useAuth } from "../context/AuthContext";
 const Login = () => {
     const currentUser = useAuth()
     
     return (  
-        <Login/>
+        <Loogin/>
     );
 }
  
